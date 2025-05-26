@@ -1,4 +1,4 @@
-public class Deportes {
+public abstract class Deportes {
 
     private int id;
     private String nombre;
@@ -47,4 +47,8 @@ public class Deportes {
         this.edad = edad;
     }
 
+    public abstract void viajar (); 
+    
+    public abstract void concentrase ();
+    // Método abstracto para obtener información del deporte
 }
