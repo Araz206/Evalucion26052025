@@ -5,7 +5,7 @@ public abstract class Deportes {
     private String apellidos;
     private int edad;
 
-    pubic Deportes() {
+    public Deportes() {
         // Constructor por defecto
     }
     public Deportes(int id, String nombre, String apellidos, int edad) {
